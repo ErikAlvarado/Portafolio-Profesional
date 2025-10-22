@@ -3,7 +3,7 @@ import React from "react";
 function ProjectCard({ title, description, imageUrl, repoUrl}){
     return(
         <div className="projectCard">
-            <img src={imageUrl || '/image/img.webp'} alt={`Vista previa de ${title}`}/>
+            <img src={imageUrl || '/public/image/img.webp'} alt={`Vista previa de ${title}`}/>
             <h3>{title}</h3>
             <p>{description}</p>
             <div className="projectLinks">
